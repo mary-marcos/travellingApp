@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/Name_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+                android:hint="Name"
+                android:inputType="text"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/age_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+            android:hint="Age"
+                android:inputType="number"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/Email"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+
+            android:id="@+id/nationa_id_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etNational_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+                android:hint="National ID"
+                android:inputType="number"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+
+            android:id="@+id/address_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etadress_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+                android:hint="Adress "
+                android:inputType="text"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/phone_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+
+            android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+            android:hint="Phone Number"
+                android:inputType="number"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+
+            android:id="@+id/whatsaap_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/amper"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconTint="@color/amper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewvar">
+
+            <EditText
+                android:id="@+id/etWhatsApp"                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="name"
+                android:hint="WhatsApp Number"
+                android:inputType="number"
+                android:maxLength="40"
+                android:padding="20dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/gridLayout_images">
+
+            <RadioButton
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/radio_working"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working" />
+
+            <RadioButton
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/radio_not_working"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dont Work" />
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup_status_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/gridLayout_images">
+
+            <RadioButton
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/radio_study"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="still study" />
+
+            <RadioButton
+                android:id="@+id/radio_complete_study"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="complete study" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnUploadCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload CV"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CV Path"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btnUploadPassport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Passport"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etPassportImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passport Image Path"
+            android:focusable="false" />
+
+
+        <Button
+            android:id="@+id/btnRecordVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hold to Record"
+            android:background="@drawable/btn_record_background"
+            android:layout_marginTop="16dp"
+            android:padding="16dp" />
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

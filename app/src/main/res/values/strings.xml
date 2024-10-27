@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FormApp</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="whatsapp_number">WhatsApp Number</string>
+    <string name="submit">Submit</string>
+    <string name="cv">cv</string>
+    <string name="upload_cv">Upload CV</string>
+    <string name="passport_image">Passport Image</string>
+    <string name="upload_passport">Upload Passport</string>
+    <string name="record_voice">Record Voice</string>
+    <string name="job_title">Job Title</string>
+    <string name="start_year">Start Year</string>
+    <string name="job_address">Job Address</string>
+</resources>

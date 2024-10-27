@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="blue2">#303F9F</color>
+
+    <color name="gray">#66676A</color>
+    <color name="amper">#FEB054</color>
+    <color name="blue">#021E50</color>
+    <color name="dark_blue">#010C17</color>
+    <color name="dark_blue2">#04203C</color>
+    <color name="light_blue">#536DFE</color>
+    <color name="light_bluetrans">#9E536DFE</color>
+    <color name="bluetrans">#57021E50</color>
+</resources>
